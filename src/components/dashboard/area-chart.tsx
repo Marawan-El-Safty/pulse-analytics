@@ -29,7 +29,7 @@ function smoothPath(pts: { x: number; y: number }[]) {
 
 export function AreaChart({
   data,
-  color = "#6366f1",
+  color = "#3b82f6",
   prefix = "",
 }: {
   data: Point[];

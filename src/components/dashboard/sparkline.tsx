@@ -5,7 +5,7 @@ const H = 32;
 
 export function Sparkline({
   data,
-  color = "#6366f1",
+  color = "#3b82f6",
 }: {
   data: number[];
   color?: string;

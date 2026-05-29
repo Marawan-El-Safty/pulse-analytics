@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import type { Point } from "@/lib/data";
 
-const COLORS = ["#6366f1", "#06b6d4", "#f59e0b"];
+const COLORS = ["#3b82f6", "#06b6d4", "#f59e0b"];
 const SIZE = 180;
 const STROKE = 22;
 const R = (SIZE - STROKE) / 2;

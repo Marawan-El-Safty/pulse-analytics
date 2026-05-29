@@ -13,8 +13,8 @@ const config: Config = {
         muted: "rgb(var(--muted) / <alpha-value>)",
         line: "rgb(var(--line) / <alpha-value>)",
         brand: {
-          DEFAULT: "#6366f1",
-          soft: "#818cf8",
+          DEFAULT: "#3b82f6",
+          soft: "#60a5fa",
         },
         success: "#22c55e",
         danger: "#ef4444",
