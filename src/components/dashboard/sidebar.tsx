@@ -17,12 +17,12 @@ import { cn } from "@/lib/utils";
 
 const NAV = [
   { href: "/", label: "Overview", icon: LayoutDashboard },
+  { href: "/analytics", label: "Analytics", icon: BarChart3 },
   { href: "/customers", label: "Customers", icon: Users },
-  { href: "#", label: "Analytics", icon: BarChart3 },
-  { href: "#", label: "Orders", icon: ShoppingCart },
-  { href: "#", label: "Payments", icon: CreditCard },
-  { href: "#", label: "Activity", icon: Activity },
-  { href: "#", label: "Settings", icon: Settings },
+  { href: "/orders", label: "Orders", icon: ShoppingCart },
+  { href: "/payments", label: "Payments", icon: CreditCard },
+  { href: "/activity", label: "Activity", icon: Activity },
+  { href: "/settings", label: "Settings", icon: Settings },
 ];
 
 function NavList({ onNavigate }: { onNavigate?: () => void }) {
@@ -43,7 +43,7 @@ function NavList({ onNavigate }: { onNavigate?: () => void }) {
                 : "text-muted hover:bg-elevated hover:text-fg",
             )}
           >
-            <item.icon className="size-4.5 size-[18px]" />
+            <item.icon className="size-[18px]" />
             {item.label}
           </Link>
         );
